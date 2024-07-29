@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">EatMore</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="food_you_love">Food you love</string>
+    <string name="choose_the">Choose the</string>
+    <string name="search">Search</string>
+    <string name="category">Category</string>
+    <string name="log_in">Log in</string>
 </resources>

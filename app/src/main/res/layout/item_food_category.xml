@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linContainer"
+    android:layout_width="120dp"
+    android:layout_height="80dp"
+    android:background="@drawable/food_category_shape"
+    android:gravity="center"
+    android:layout_marginEnd="18dp"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="42dp"
+        android:layout_marginTop="18dp"
+        tools:src="@drawable/ic_logo_hamburger" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        tools:text="Burgers" />
+</LinearLayout>
